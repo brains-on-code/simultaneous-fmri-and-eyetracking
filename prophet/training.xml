@@ -1,0 +1,1043 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QTreeNode type="EXPERIMENT" name="Experiment">
+  <html></html>
+  <attribute key="subjectcode_caption" value="Probandencode"/>
+  <attribute key="viewer_language" value="en"/>
+  <attribute key="question_list" value="false"/>
+  <attribute key="randomizeChildren" value="false"/>
+  <attribute key="experimentcode" value="ProgCode3_Training"/>
+  <attribute key="experiment_export" value="false"/>
+  <attribute key="answers_required" value="false">
+    <attribute key="names" value=""/>
+  </attribute>
+  <attribute key="valid_code" value="false">
+    <attribute key="codes" value=""/>
+    <attribute key="path" value=""/>
+    <attribute key="ignorecase" value="false"/>
+  </attribute>
+  <attribute key="ignore_timeout" value=""/>
+  <attribute key="onlyShowXChildren" value="false">
+    <attribute key="showNumberOfChildren" value="0"/>
+  </attribute>
+  <attribute key="sendmail" value="false">
+    <attribute key="smtp_pass" value=""/>
+    <attribute key="smtp_server" value=""/>
+    <attribute key="smtp_user" value=""/>
+    <attribute key="smtp_sender" value=""/>
+    <attribute key="smtp_receiver" value=""/>
+    <attribute key="smtp_server_sec" value="-"/>
+    <attribute key="smtp_server_port" value="587"/>
+  </attribute>
+  <attribute key="timing_visible" value="false"/>
+  <attribute key="max_time" value="false">
+    <attribute key="hard_exit" value="false">
+      <attribute key="show_warning" value="false">
+        <attribute key="warning_message" value=""/>
+        <attribute key="warning_time" value=""/>
+      </attribute>
+    </attribute>
+    <attribute key="time" value=""/>
+    <attribute key="message" value=""/>
+  </attribute>
+  <QTreeNode type="CATEGORY" name="7_Understand">
+    <html>Diese Funktion berechnet den Durchschnitt eines Arrays.
+
+Bitte studiere diese Funktion, bis du sie verstanden hast.</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="notes" value=""/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="240"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="true">
+      <attribute key="path" value="ProgCodeSrc"/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="true"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="true">
+        <attribute key="startPath" value="ArrayAverage.java"/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="true"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="7_Implement">
+    <html>Bitte implementiere die gerade gesehen Funktion erneut.
+&lt;br /&gt;&lt;br /&gt;
+&lt;textarea name=&quot;Sourcecode&quot; cols=&quot;80&quot; rows=&quot;20&quot;&gt;&lt;/textarea&gt;</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="notes" value=""/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="300"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="false">
+      <attribute key="path" value=""/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="false"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="false">
+        <attribute key="startPath" value=""/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="false"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="7_ViewSC">
+    <html>Zur Erinnerung, hier ist die Funktion nochmal.
+
+</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="notes" value=""/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="120"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="true">
+      <attribute key="path" value="ProgCodeSrc"/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="true"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="true">
+        <attribute key="startPath" value="ArrayAverage.java"/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="true"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="8_Understand">
+    <html>Diese Funktion ueberprueft, ob ein Teil-String in einem String enthalten ist.
+
+Bitte studiere diese Funktion, bis du sie verstanden hast.</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="notes" value=""/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="180"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="true">
+      <attribute key="path" value="ProgCodeSrc"/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="true"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="true">
+        <attribute key="startPath" value="ContainsSubstring.java"/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="true"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="8_Implement">
+    <html>Bitte implementiere die gerade gesehen Funktion erneut.
+&lt;br /&gt;&lt;br /&gt;
+&lt;textarea name=&quot;Sourcecode&quot; cols=&quot;80&quot; rows=&quot;20&quot;&gt;&lt;/textarea&gt;</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="300"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="false">
+      <attribute key="path" value=""/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="false"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="false">
+        <attribute key="startPath" value=""/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="false"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="8_ViewSC">
+    <html>Zur Erinnerung, hier ist die Funktion nochmal.
+
+</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="notes" value=""/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="120"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="true">
+      <attribute key="path" value="ProgCodeSrc"/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="true"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="true">
+        <attribute key="startPath" value="ContainsSubstring.java"/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="true"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="9_Understand">
+    <html>Diese Funktion berechnet die Potenz einer Zahl.
+
+Bitte studiere diese Funktion, bis du sie verstanden hast.</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="notes" value=""/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="180"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="true">
+      <attribute key="path" value="ProgCodeSrc"/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="true"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="true">
+        <attribute key="startPath" value="Power.java"/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="true"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="9_Implement">
+    <html>Bitte implementiere die gerade gesehen Funktion erneut.
+&lt;br /&gt;&lt;br /&gt;
+&lt;textarea name=&quot;Sourcecode&quot; cols=&quot;80&quot; rows=&quot;20&quot;&gt;&lt;/textarea&gt;</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="300"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="false">
+      <attribute key="path" value=""/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="false"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="false">
+        <attribute key="startPath" value=""/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="false"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="9_ViewSC">
+    <html>Zur Erinnerung, hier ist die Funktion nochmal.
+
+</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="notes" value=""/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="120"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="true">
+      <attribute key="path" value="ProgCodeSrc"/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="true"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="true">
+        <attribute key="startPath" value="Power.java"/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="true"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="10_Understand">
+    <html>Diese Funktion berechnet die Anzahl der gleichen Buchstaben an der gleichen Position.
+
+Bitte studiere diese Funktion, bis du sie verstanden hast.</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="notes" value=""/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="180"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="true">
+      <attribute key="path" value="ProgCodeSrc"/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="true"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="true">
+        <attribute key="startPath" value="CountSameCharsAtSamePosition.java"/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="true"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="10_Implement">
+    <html>Bitte implementiere die gerade gesehen Funktion erneut.
+&lt;br /&gt;&lt;br /&gt;
+&lt;textarea name=&quot;Sourcecode&quot; cols=&quot;80&quot; rows=&quot;20&quot;&gt;&lt;/textarea&gt;</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="300"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="false">
+      <attribute key="path" value=""/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="false"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="false">
+        <attribute key="startPath" value=""/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="false"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="10_ViewSC">
+    <html>Zur Erinnerung, hier ist die Funktion nochmal.
+
+</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="notes" value=""/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="120"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="true">
+      <attribute key="path" value="ProgCodeSrc"/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="true"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="true">
+        <attribute key="startPath" value="CountSameCharsAtSamePosition.java"/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="true"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="11_Understand">
+    <html>Diese Funktion laeuft durch ein Array und gibt den ersten Wert ueber einer gegebenen Grenze zurueck.
+
+Bitte studiere diese Funktion, bis du sie verstanden hast.</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="notes" value=""/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="180"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="true">
+      <attribute key="path" value="ProgCodeSrc"/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="true"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="true">
+        <attribute key="startPath" value="FirstAboveTreshold.java"/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="true"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="11_Implement">
+    <html>Bitte implementiere die gerade gesehen Funktion erneut.
+&lt;br /&gt;&lt;br /&gt;
+&lt;textarea name=&quot;Sourcecode&quot; cols=&quot;80&quot; rows=&quot;20&quot;&gt;&lt;/textarea&gt;</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="300"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="false">
+      <attribute key="path" value=""/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="false"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="false">
+        <attribute key="startPath" value=""/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="false"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="11_ViewSC">
+    <html>Zur Erinnerung, hier ist die Funktion nochmal.
+
+</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="notes" value=""/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="true">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="true">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value="120"/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="true">
+      <attribute key="path" value="ProgCodeSrc"/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="scrolling" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="true"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="true">
+        <attribute key="startPath" value="FirstAboveTreshold.java"/>
+      </attribute>
+      <attribute key="change" value="false">
+        <attribute key="join" value="false">
+          <attribute key="jointime" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="linenumbers" value="true"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+</QTreeNode>

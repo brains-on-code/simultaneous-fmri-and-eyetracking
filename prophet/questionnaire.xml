@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<QTreeNode type="EXPERIMENT" name="Experiment">
+  <html>Los geht&apos;s :)</html>
+  <attribute key="maxTime" value="true">
+    <attribute key="maxTime" value="40"/>
+  </attribute>
+  <attribute key="code" value=""/>
+  <attribute key="notes" value=""/>
+  <attribute key="subjectcode_caption" value="Probandencode"/>
+  <attribute key="viewer_language" value="de"/>
+  <attribute key="question_list" value="true"/>
+  <attribute key="validCode" value="true">
+    <attribute key="path" value="probcodes.txt"/>
+  </attribute>
+  <attribute key="lastMessage" value="jutti, feertisch!"/>
+  <attribute key="randomizeChildren" value="false"/>
+  <attribute key="experimentcode" value="ProgCode3_Quest"/>
+  <attribute key="experiment_export" value="false"/>
+  <attribute key="donotshowcontent" value="false"/>
+  <attribute key="answers_required" value="false">
+    <attribute key="names" value=""/>
+  </attribute>
+  <attribute key="inactive" value="false"/>
+  <attribute key="valid_code" value="false">
+    <attribute key="codes" value="b"/>
+    <attribute key="ignorecase" value="true"/>
+    <attribute key="path" value="probcodes.txt"/>
+  </attribute>
+  <attribute key="ignore_timeout" value=""/>
+  <attribute key="onlyShowXChildren" value="false">
+    <attribute key="showNumberOfChildren" value="0"/>
+  </attribute>
+  <attribute key="sendmail" value="false">
+    <attribute key="smtp_email" value=""/>
+    <attribute key="smtp_pass" value="Cx51ZnkZLA=="/>
+    <attribute key="smtp_server" value="mailhost.mathematik.uni-marburg.de"/>
+    <attribute key="smtp_user" value="feigensp"/>
+    <attribute key="smtp_sender" value="feigensp@iti.cs.uni-magdeburg.de"/>
+    <attribute key="smtp_receiver" value="yesnice@googlemail.com"/>
+    <attribute key="smtp_server_sec" value="-"/>
+    <attribute key="smtp_server_port" value="587"/>
+  </attribute>
+  <attribute key="max_time" value="false">
+    <attribute key="hard_exit" value="false">
+      <attribute key="show_warning" value="true">
+        <attribute key="warning_message" value="Experiment-TimeOut-Warnung"/>
+        <attribute key="warning_time" value="10"/>
+      </attribute>
+    </attribute>
+    <attribute key="time" value="2"/>
+    <attribute key="message" value="Experiment-TimeOut"/>
+  </attribute>
+  <attribute key="timing_visible" value="false"/>
+  <QTreeNode type="CATEGORY" name="Fragebogen">
+    <html>Jetzt noch ein kleiner Fragebogen, um deine Programmiererfahrung zu erfassen.&lt;br /&gt;
+&lt;br /&gt;</html>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="inactive" value="false"/>
+    <attribute key="ignore_timeout" value=""/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="false">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="false">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value=""/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="false">
+      <attribute key="path" value=""/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="false"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="false">
+        <attribute key="startPath" value=""/>
+      </attribute>
+      <attribute key="linenumbers" value="false"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+    <QTreeNode type="QUESTION" name="Seite1">
+      <html>&lt;br&gt;
+&lt;br&gt;
+Zuerst ein paar Fragen zur Person.&lt;br&gt;&lt;br&gt;
+&lt;table width=&quot;100%&quot;&gt;
+&lt;tr align=center&gt;
+&lt;td align=right&gt;Alter: &lt;/td&gt;
+&lt;td align=left&gt;&lt;input type=&quot;text&quot; name=&quot;alter&quot;&gt;&lt;/td&gt;&lt;br&gt;
+&lt;/tr&gt;
+&lt;tr align=center style=&quot;background-color:silver&quot;&gt;
+&lt;td align=right&gt;Immatrikulationsjahr: &lt;/td&gt;
+&lt;td align=left&gt;&lt;input type=&quot;text&quot; name=&quot;immatrikulationsjahr&quot;&gt;&lt;/td&gt;&lt;br&gt;
+&lt;/tr&gt;
+&lt;tr align=center&gt;
+&lt;td align=right&gt;
+Geschlecht: &lt;/td&gt;
+&lt;td align=left&gt;&lt;input type=&quot;radio&quot; name=&quot;geschlecht&quot; value=&quot;Männlich&quot;&gt;Männlich&lt;br&gt;
+&lt;input type=&quot;radio&quot; name=&quot;geschlecht&quot; value=&quot;Weiblich&quot;&gt;Weiblich
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=center style=&quot;background-color:silver&quot;&gt;
+&lt;td align=right&gt;Studiengang: &lt;/td&gt;
+&lt;td align=left&gt;&lt;input type=&quot;text&quot; name=&quot;studiengang&quot;&gt;&lt;/td&gt;&lt;br&gt;
+&lt;/tr&gt;
+&lt;tr align=center&gt;
+
+&lt;/table&gt;</html>
+      <attribute key="answers_required" value="false">
+        <attribute key="names" value=""/>
+      </attribute>
+      <attribute key="inactive" value="false"/>
+      <attribute key="ignore_timeout" value=""/>
+      <attribute key="max_time" value="false">
+        <attribute key="hard_exit" value="false">
+          <attribute key="show_warning" value="false">
+            <attribute key="warning_message" value=""/>
+            <attribute key="warning_time" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="time" value=""/>
+        <attribute key="message" value=""/>
+      </attribute>
+      <parent reference="../.."/>
+    </QTreeNode>
+    <QTreeNode type="QUESTION" name="Seite2">
+      <html>Auf einer Skala von 1-10, wobei 1 sehr wenig, 10 sehr viel bedeutet: Wie hoch schätzt du deine Programmiererfahrung ein?&lt;br&gt;
+&lt;br&gt;
+&lt;table width=&quot;100%&quot;&gt;
+
+&lt;tr align=center&gt;
+&lt;td&gt;1&lt;/td&gt;
+&lt;td&gt;2&lt;/td&gt;
+&lt;td&gt;3&lt;/td&gt;
+&lt;td&gt;4&lt;/td&gt;
+&lt;td&gt;5&lt;/td&gt;
+&lt;td&gt;6&lt;/td&gt;
+&lt;td&gt;7&lt;/td&gt;
+&lt;td&gt;8&lt;/td&gt;
+&lt;td&gt;9&lt;/td&gt;
+&lt;td&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr  align=center&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;PE&quot; value=&quot;0&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;PE&quot; value=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;PE&quot; value=&quot;2&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;PE&quot; value=&quot;3&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;PE&quot; value=&quot;4&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;PE&quot; value=&quot;5&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;PE&quot; value=&quot;6&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;PE&quot; value=&quot;7&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;PE&quot; value=&quot;8&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;PE&quot; value=&quot;9&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;table width=&quot;100%&quot;&gt;
+
+&lt;tr align=center&gt;
+&lt;td align=right&gt;Seit wie vielen Jahren programmierst du?&lt;/td&gt;
+&lt;td align=left&gt;&lt;input type=&quot;text&quot; name=&quot;programmierjahre&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=center style=&quot;background-color:silver&quot;&gt;
+&lt;td align=right&gt;Wie viele Kurse hast du belegt, in denen du programmieren musstest?&lt;/td&gt;
+&lt;td align=left&gt;&lt;input type=&quot;text&quot; name=&quot;programmierkurse&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+Wie erfahren bist du im Umgang mit folgenden Programmiersprachen?&lt;br&gt;
+&lt;br&gt;
+&lt;table width=&quot;100%&quot;&gt;
+
+&lt;tr align=center&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;sehr&lt;br&gt;unerfahren&lt;/td&gt;
+&lt;td&gt;unerfahren&lt;/td&gt;
+&lt;td&gt;mittel&lt;/td&gt;
+&lt;td&gt;erfahren&lt;/td&gt;
+&lt;td&gt;sehr&lt;br&gt;erfahren&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr  align=center&gt;
+&lt;td&gt;Java&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Java&quot; value=&quot;0&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Java&quot; value=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Java&quot; value=&quot;2&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Java&quot; value=&quot;3&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Java&quot; value=&quot;4&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=center style=&quot;background-color:silver&quot;&gt;
+&lt;td&gt;C&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;C&quot; value=&quot;0&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;C&quot; value=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;C&quot; value=&quot;2&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;C&quot; value=&quot;3&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;C&quot; value=&quot;4&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr  align=center&gt;
+&lt;td&gt;Haskell&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Haskell&quot; value=&quot;0&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Haskell&quot; value=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Haskell&quot; value=&quot;2&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Haskell&quot; value=&quot;3&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Haskell&quot; value=&quot;4&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=center style=&quot;background-color:silver&quot;&gt;
+&lt;td&gt;Prolog&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Prolog&quot; value=&quot;0&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Prolog&quot; value=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Prolog&quot; value=&quot;2&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Prolog&quot; value=&quot;3&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Prolog&quot; value=&quot;4&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;br&gt;&lt;br&gt;
+In wie vielen weiteren Programmiersprachen, die hier nicht aufgelistet sind, würdest du deine Erfahrung mindestens mit mittel bewerten?&lt;br&gt;
+&lt;br&gt;
+&lt;table width=&quot;100%&quot;&gt;
+&lt;tr  align=center&gt;
+&lt;td align=right&gt;Anzahl weiterer Programmiersprachen&lt;/td&gt;
+&lt;td align=left&gt;&lt;input type=&quot;text&quot; name=&quot;weitereProgrammiersprachenanzahl&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</html>
+      <attribute key="answers_required" value="false">
+        <attribute key="names" value=""/>
+      </attribute>
+      <attribute key="inactive" value="false"/>
+      <attribute key="max_time" value="false">
+        <attribute key="hard_exit" value="false">
+          <attribute key="show_warning" value="false">
+            <attribute key="warning_message" value=""/>
+            <attribute key="warning_time" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="time" value=""/>
+        <attribute key="message" value=""/>
+      </attribute>
+      <parent reference="../.."/>
+    </QTreeNode>
+    <QTreeNode type="QUESTION" name="Seite3">
+      <html>&lt;br&gt;
+&lt;br&gt;
+Wie erfahren bist du im Umgang mit folgenden Programmierparadigmen?&lt;br&gt;
+&lt;br&gt;
+&lt;table width=&quot;100%&quot;&gt;
+
+&lt;tr align=center&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;sehr&lt;br&gt;unerfahren&lt;/td&gt;
+&lt;td&gt;unerfahren&lt;/td&gt;
+&lt;td&gt;mittel&lt;/td&gt;
+&lt;td&gt;erfahren&lt;/td&gt;
+&lt;td&gt;sehr&lt;br&gt;erfahren&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=center&gt;
+&lt;td&gt;logisch (Prolog)&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;logisch (Prolog)&quot; value=&quot;0&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;logisch (Prolog)&quot; value=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;logisch (Prolog)&quot; value=&quot;2&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;logisch (Prolog)&quot; value=&quot;3&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;logisch (Prolog)&quot; value=&quot;4&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=center style=&quot;background-color:silver&quot;&gt;
+&lt;td&gt;funktional (Haskell)&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;funktional (Haskell)&quot; value=&quot;0&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;funktional (Haskell)&quot; value=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;funktional (Haskell)&quot; value=&quot;2&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;funktional (Haskell)&quot; value=&quot;3&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;funktional (Haskell)&quot; value=&quot;4&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=center&gt;
+&lt;td&gt;imperativ (C)&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;imperativ (C)&quot; value=&quot;0&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;imperativ (C)&quot; value=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;imperativ (C)&quot; value=&quot;2&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;imperativ (C)&quot; value=&quot;3&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;imperativ (C)&quot; value=&quot;4&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=center style=&quot;background-color:silver&quot;&gt;
+&lt;td&gt;objekt-orientiert (Java)&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;objekt-orientiert (Java)&quot; value=&quot;0&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;objekt-orientiert (Java)&quot; value=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;objekt-orientiert (Java)&quot; value=&quot;2&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;objekt-orientiert (Java)&quot; value=&quot;3&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;objekt-orientiert (Java)&quot; value=&quot;4&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;hr&gt;
+Hast du an einem, oder mehreren, größeren Programmierprojekten in einer Firma/Uni mitgearbeitet oder arbeitest du zur Zeit an einem größeren Programmierprojekt?&lt;br&gt;
+&lt;table width=&quot;100%&quot;&gt;
+
+&lt;tr&gt;
+&lt;td align=center&gt;Ja&lt;/td&gt;
+&lt;td&gt;Nein&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=center&gt;&lt;input type=&quot;radio&quot; name=&quot;grossesProgrammierprojekt&quot; value=&quot;Ja&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;grossesProgrammierprojekt&quot; value=&quot;Nein&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+(Nur zu beantworten, wenn vorherige Frage mit &quot;Ja&quot; beantwortet wurde)&lt;br&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;table width=&quot;100%&quot;&gt;
+&lt;tr&gt;
+&lt;td align=right&gt;Für wie lange, bzw. seit wann arbeitest du in einer Firma/Uni an größeren Programmierprojekten?&lt;/td&gt;
+&lt;td align=left&gt;&lt;input type=&quot;text&quot; name=&quot;zeitGrossesProgrammierprojekt&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr style=&quot;background-color:silver&quot;&gt;
+&lt;td align=right&gt;In welcher Domäne waren/sind diese Projekte hauptsächlich angesiedelt?&lt;/td&gt;
+&lt;td align=left&gt;&lt;input type=&quot;text&quot; name=&quot;domaeneGrossesProgrammierprojekt&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=center&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;&amp;lt; 900&lt;/td&gt;
+&lt;td&gt;900 - 40.000&lt;/td&gt;
+&lt;td&gt;&amp;gt; 40.000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=center&gt;
+&lt;td&gt;Aus wie vielen Lines of Code bestanden/bestehen die Projekte üblicherweise?&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;locProjekte&quot; value=&quot;&lt;900&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;locProjekte&quot; value=&quot;900-40000&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;locProjekte&quot; value=&quot;&gt;40000&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</html>
+      <attribute key="answers_required" value="false">
+        <attribute key="names" value=""/>
+      </attribute>
+      <attribute key="inactive" value="false"/>
+      <attribute key="max_time" value="false">
+        <attribute key="hard_exit" value="false">
+          <attribute key="show_warning" value="false">
+            <attribute key="warning_message" value=""/>
+            <attribute key="warning_time" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="time" value=""/>
+        <attribute key="message" value=""/>
+      </attribute>
+      <parent reference="../.."/>
+    </QTreeNode>
+    <QTreeNode type="QUESTION" name="Seite4">
+      <html>&lt;br&gt;
+&lt;br&gt;
+Wie schätzt du deine Programmierfähigkeiten im Vergleich zu den anderen Kursteilnehmern bzw. Programmierern mit 20 Jahren Praxiserfahrung ein?&lt;br&gt;
+&lt;br&gt;
+&lt;table width=&quot;100%&quot;&gt;
+
+&lt;tr align=center&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;td&gt;viel schlechter&lt;/td&gt;
+&lt;td&gt;schlechter&lt;/td&gt;
+&lt;td&gt;genau gleich&lt;/td&gt;
+&lt;td&gt;besser&lt;/td&gt;
+&lt;td&gt;viel besser&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=center&gt;
+&lt;td&gt;Kursteilnehmer&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Kursteilnehmer&quot; value=&quot;0&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Kursteilnehmer&quot; value=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Kursteilnehmer&quot; value=&quot;2&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Kursteilnehmer&quot; value=&quot;3&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Kursteilnehmer&quot; value=&quot;4&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr align=center style=&quot;background-color:silver&quot;&gt;
+&lt;td&gt;Programmierer&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Programmierer&quot; value=&quot;0&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Programmierer&quot; value=&quot;1&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Programmierer&quot; value=&quot;2&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Programmierer&quot; value=&quot;3&quot;&gt;&lt;/td&gt;
+&lt;td&gt;&lt;input type=&quot;radio&quot; name=&quot;Programmierer&quot; value=&quot;4&quot;&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;</html>
+      <attribute key="answers_required" value="false">
+        <attribute key="names" value=""/>
+      </attribute>
+      <attribute key="inactive" value="false"/>
+      <attribute key="max_time" value="false">
+        <attribute key="hard_exit" value="false">
+          <attribute key="show_warning" value="false">
+            <attribute key="warning_message" value=""/>
+            <attribute key="warning_time" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="time" value=""/>
+        <attribute key="message" value=""/>
+      </attribute>
+      <parent reference="../.."/>
+    </QTreeNode>
+  </QTreeNode>
+  <QTreeNode type="CATEGORY" name="Ende">
+    <html>Vielen Dank für deine Teilnahme am Experiment! &lt;br /&gt;
+&lt;br /&gt;
+
+&lt;p&gt;
+Du erweist der Wissenschaft einen großen Dienst :)&lt;br /&gt;
+&lt;br /&gt;
+</html>
+    <attribute key="answers_required" value="false">
+      <attribute key="names" value=""/>
+    </attribute>
+    <attribute key="questionswitching" value="false"/>
+    <attribute key="inactive" value="false"/>
+    <attribute key="ignore_timeout" value="false"/>
+    <attribute key="onlyShowXChildren" value="false">
+      <attribute key="showNumberOfChildren" value="0"/>
+    </attribute>
+    <attribute key="randomizeChildren" value="false"/>
+    <attribute key="start_external_progs" value="false">
+      <attribute key="commands" value=""/>
+    </attribute>
+    <attribute key="max_time" value="false">
+      <attribute key="ignore_timeout" value="false"/>
+      <attribute key="hard_exit" value="false">
+        <attribute key="show_warning" value="false">
+          <attribute key="warning_message" value=""/>
+          <attribute key="warning_time" value=""/>
+        </attribute>
+      </attribute>
+      <attribute key="time" value=""/>
+      <attribute key="message" value=""/>
+    </attribute>
+    <attribute key="donotshowcontent" value="false"/>
+    <attribute key="codeviewer" value="false">
+      <attribute key="path" value=""/>
+      <attribute key="recorder" value="false">
+        <attribute key="scrolling" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+        <attribute key="change" value="false">
+          <attribute key="join" value="false">
+            <attribute key="jointime" value=""/>
+          </attribute>
+        </attribute>
+      </attribute>
+      <attribute key="syntaxhighlighting" value="false"/>
+      <attribute key="editable" value="false"/>
+      <attribute key="openedByStart" value="false">
+        <attribute key="startPath" value=""/>
+      </attribute>
+      <attribute key="linenumbers_default" value="false"/>
+      <attribute key="linenumbers" value="false"/>
+      <attribute key="searchable" value="false">
+        <attribute key="enableglobal" value="false"/>
+        <attribute key="disableregex" value="false"/>
+      </attribute>
+    </attribute>
+    <parent reference="../.."/>
+  </QTreeNode>
+</QTreeNode>
