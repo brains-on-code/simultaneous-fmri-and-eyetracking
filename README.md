@@ -83,7 +83,7 @@ As we conducted the study with German students, some elements are still in Germa
 
 We provided all images necessary for the an exact replication of our experiment under `/images/`. Attention, the tasks are in German.
 
-If you would like to use different snippets (or a different task language), you may use our tool to generate images. To make the eye-tracking analysis later on more meaningful, we created images containing the code snippets. Thus, it is much easier to map eye-tracking gaze positions to the location within the presented code (instead of x/y coordinates without context). We used a custom python script to create the images from a predefined set of code snippets: [Link coming soon](#).
+If you would like to use different snippets (or a different task language), you may use our tool to generate images. To make the eye-tracking analysis later on more meaningful, we created images containing the code snippets. Thus, it is much easier to map eye-tracking gaze positions to the location within the presented code (instead of x/y coordinates without context). We used a custom Python script to create the images from a predefined set of code snippets: [Link coming soon](#).
 
 We also created images for a d2 attention task, which was used after each comprehension snippet. You can find the Python script for the d2 image generation here: [Link coming soon](#).
 
@@ -91,7 +91,7 @@ Once the images are created, you can proceed to the next step.
 
 ## Experiment Execution
 
-We use [Presentation](https://neurobs.com/) to control the stimuli display, receive participant responses, and control the eye-tracker. You can find the script under `/presentation/`. Although we have not used it yet, [PsychoPy](http://www.psychopy.org/) may also be a way to replicate our experiment.
+We use [Presentation](https://neurobs.com/) to control the stimuli display, receive participant responses, and control the eye-tracker. You can find the script under `/presentation/`. Although we have not conducted a full study with it yet, [PsychoPy](http://www.psychopy.org/) may also be a way to replicate our experiment.
 
 If you use the Presentation script, you may need to change the paths to the stimuli images. Our Presentation script assumes you are also using an EyeLink eye-tracker. You may start the experiment without an eye-tracker by setting `use_eyetracker` to `false`. 
 
@@ -115,6 +115,7 @@ We largely replicated our [previous FSE'17 study](https://github.com/brains-on-c
 * Bottom-up comprehension
 * Top-down comprehension [Trained, no beacons]
 * Top-down comprehension [Untrained, including beacons]
+* Find syntax errors
 
 Every task in the list above lasted for 30 seconds, plus a 2-seconds grace period to submit a late response. They were each followed by a 15-seconds d2 attention task and a 20-seconds rest condition. This results in an experiment execution time of approximately 28 minutes.
 
