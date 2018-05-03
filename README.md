@@ -164,6 +164,9 @@ Includes de-identified demographics, fMRI, behavioral, eye-tracking data.
 
 *[intended to be provided after publication]*
 
+# Acknowledgments
+
+We thank all participants of the fMRI study. Furthermore, we thank Andreas Fügner, Anke Michalsky, and Jörg Stadler for their technical support during pilot studies and fMRI data acquisition.
 
 # Missing Information? Feedback? Questions?
 
