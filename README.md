@@ -17,9 +17,9 @@ Our long-term research goal is to understand how code aspects (like rich identif
 
 # Experiment Details
 
-## fMRI Imaging and Eye-Tracking 
+## fMRI Imaging and Eye Tracking 
 
-The study was conducted on a 3-Tesla fMRI scanner (Philips Achieva dStream, Best, The Netherlands) equipped with a 32-channel head coil at the Leibniz Institute for Neurobiology in Magdeburg, Germany. We used an MRI-compatible EyeLink 1000 (SR Research Ltd, Ottawa, Ontario, Canada, http://www.sr-research.com) eye-tracker for simultaneous measurement of eye movements. The EyeLink eye tracker offers 1000 Hz temporal resolution, <0.5° average accuracy, and 0.01° root mean square (RMS). The eye-tracker collected eye gazes, events (i.e., fixations, blinks, saccades), and pupil dilation.
+The study was conducted on a 3-Tesla fMRI scanner (Philips Achieva dStream, Best, The Netherlands) equipped with a 32-channel head coil at the Leibniz Institute for Neurobiology in Magdeburg, Germany. We used an MRI-compatible EyeLink 1000 (SR Research Ltd, Ottawa, Ontario, Canada, http://www.sr-research.com) eye tracker for simultaneous measurement of eye movements. The EyeLink eye tracker offers 1000 Hz temporal resolution, <0.5° average accuracy, and 0.01° root mean square (RMS). The eye tracker collected eye gazes, events (i.e., fixations, blinks, saccades), and pupil dilation.
 
 We calibrated the eye tracker with a randomized 9-dot grid. Afterward, we conducted a 9-dot validation to identify possible issues with the calibration. If the error during validation exceeded EyeLink's recommended thresholds, we repeated the calibration and validation process.
 
@@ -31,7 +31,7 @@ The calibration and validation of the eye tracker was done after the pre-measure
 
 We conducted one full pilot session in December 2017, and 22 measurements between February and March 2018.
 
-| Participant | Eye-Tracking (% of Collected Frames) | fMRI Data (Movement) |
+| Participant | Eye Tracking (% of Collected Frames) | fMRI Data (Movement) |
 |-------------|-------------------------------------:|----------------------|
 | Pilot       |                                  98% | OK                   |
 | 01          |                                  33% | OK                   |
@@ -91,11 +91,11 @@ Once the images are created, you can proceed to the next step.
 
 ## Experiment Execution
 
-We use [Presentation](https://neurobs.com/) to control the stimuli display, receive participant responses, and control the eye-tracker. You can find the script under `/presentation/`. Although we have not conducted a full study with it yet, [PsychoPy](http://www.psychopy.org/) may also be a way to replicate our experiment.
+We use [Presentation](https://neurobs.com/) to control the stimuli display, receive participant responses, and control the eye tracker. You can find the script under `/presentation/`. Although we have not conducted a full study with it yet, [PsychoPy](http://www.psychopy.org/) may also be a way to replicate our experiment.
 
-If you use the Presentation script, you may need to change the paths to the stimuli images. Our Presentation script assumes you are also using an EyeLink eye-tracker. You may start the experiment without an eye-tracker by setting `use_eyetracker` to `false`. 
+If you use the Presentation script, you may need to change the paths to the stimuli images. Our Presentation script assumes you are also using an EyeLink eye tracker. You may start the experiment without an eye tracker by setting `use_eyetracker` to `false`. 
 
-For configuration of the EyeLink eye-tracker, please refer to EyeLink's manual (no special settings are necessary for the experiment, a standard configuration should be sufficient).
+For configuration of the EyeLink eye tracker, please refer to EyeLink's manual (no special settings are necessary for the experiment, a standard configuration should be sufficient).
 
 ### Training
 
