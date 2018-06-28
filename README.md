@@ -159,8 +159,7 @@ Note on the aspect ratio: the images are mostly created with an aspect ratio of 
 
 After the experiment ended, our Presentation script exported EyeLink's eye-tracking data to the stimulus PC. We then used a vendor-provided script to convert EyeLink's `.edf` logging file into an ASCII-readable format. Next, we used a [custom script](https://github.com/peitek/eyelink-ogama-connector) to map the eye-tracking data to the respective position within a code, merge in behavioral data (responses) and physiological data (heart rate, respiration), and convert it into a CSV format. Finally, we imported the CSV file into [Ogama](https://github.com/avosskuehler/ogama), which we used to analyze the eye-tracking data. The last available Ogama version could not import a dataset of our size (presumably due to the 1000 Hz temporal resolution of the eye tracker and large participant pool). To this end, we created a [custom 64-bit build of Ogama](https://github.com/peitek/ogama) to increase the memory limit, which allowed us to import our data. 
 
-*A fully automated analysis flow will be provided once we publish the raw data.*
-
+The data and graphs used in our paper can be replicated with our [analyses](https://github.com/peitek/eyetracking-analyses) and  [visualizations](https://github.com/peitek/eyetracking-visualizations) pipelines.
 
 # Raw and Pre-Processsed Data
 
