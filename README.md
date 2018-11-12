@@ -13,7 +13,11 @@ Our long-term research goal is to understand how code aspects (like rich identif
 
 # Publications (PDFs)
 
-*nothing yet*
+Norman Peitek, Janet Siegmund, Chris Parnin, Sven Apel, Johannes Hofmeister, and André Brechmann. [Simultaneous Measurement of Program Comprehension with fMRI and Eye Tracking: A Case Study](https://www.infosun.fim.uni-passau.de/publications/docs/PSP+18b.pdf). In Proceedings of the International Symposium on Empirical Software Engineering and Measurement (ESEM), pages 24:1–24:10. ACM Press, October 2018
+
+Norman Peitek, Janet Siegmund, Chris Parnin, Sven Apel, and André Brechmann. [Beyond Gaze: Preliminary Analysis of Pupil Dilation and Blink Rates in an fMRI Study of Program Comprehension](https://www.infosun.fim.uni-passau.de/publications/docs/PSP+18.pdf). In Proceedings of the International Workshop on Eye Movements in Programming (EMIP), page Article 4. ACM Press, June 2018.
+ 
+Norman Peitek, Janet Siegmund, Chris Parnin, Sven Apel, and André Brechmann. [Toward Conjoint Analysis of Simultaneous Eye-Tracking and fMRI Data for Program-Comprehension Studies](https://www.infosun.fim.uni-passau.de/publications/docs/PSP+18a.pdf). In Proceedings of the International Workshop on Eye Movements in Programming (EMIP), page Article 1. ACM Press, June 2018.
 
 # Experiment Details
 
@@ -163,9 +167,7 @@ The data and graphs used in our paper can be replicated with our [analyses](http
 
 # Raw and Pre-Processsed Data
 
-Includes de-identified demographics, fMRI, behavioral, eye-tracking data.
-
-*[intended to be provided after publication]*
+De-identified data available on request.
 
 # Acknowledgments
 
