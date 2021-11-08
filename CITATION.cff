@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use our data or replication package, please cite it as below."
+authors:
+- family-names: "Peitek"
+  given-names: "Norman"
+  orcid: "https://orcid.org/0000-0001-7828-4558"
+- family-names: "Siegmund"
+  given-names: "Janet"
+  orcid: "https://orcid.org/0000-0002-5815-266X"
+- family-names: "Parnin"
+  given-names: "Chris"
+  orcid: "https://orcid.org/0000-0001-6182-815X"
+- family-names: "Apel"
+  given-names: "Sven"
+  orcid: "https://orcid.org/0000-0003-3687-2233"
+- family-names: "Hofmeister"
+  given-names: "Johannes"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Brechmann"
+  given-names: "André"
+  orcid: "https://orcid.org/0000-0003-3903-0840"
+title: "Simultaneous Measurement of Program Comprehension with fMRI and Eye Tracking: A Case Study"
+version: 1.0.0
+doi: 10.1145/3239235.3240495
+date-released: 2018-10-01
+url: "https://github.com/brains-on-code/simultaneous-fmri-and-eyetracking"
+preferred-citation:
+  type: proceedings
+  authors:
+  - family-names: "Peitek"
+    given-names: "Norman"
+    orcid: "https://orcid.org/0000-0001-7828-4558"
+  - family-names: "Siegmund"
+    given-names: "Janet"
+    orcid: "https://orcid.org/0000-0002-5815-266X"
+  - family-names: "Parnin"
+    given-names: "Chris"
+    orcid: "https://orcid.org/0000-0001-6182-815X"
+  - family-names: "Apel"
+    given-names: "Sven"
+    orcid: "https://orcid.org/0000-0003-3687-2233"
+  - family-names: "Hofmeister"
+    given-names: "Johannes"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+  - family-names: "Brechmann"
+    given-names: "André"
+    orcid: "https://orcid.org/0000-0003-3903-0840"
+  doi: "10.1145/3239235.3240495"
+  conference: "International Symposium on Empirical Software Engineering and Measurement (ESEM)"
+  month: 10
+  start: 24:1 # First page number 
+  end: 24:10 # Last page number
+  title: "Simultaneous Measurement of Program Comprehension with fMRI and Eye Tracking: A Case Study"
+  year: 2018
